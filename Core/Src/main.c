@@ -56,24 +56,7 @@ static void MX_USART2_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t menu[100] =
-		"Enter an option\r\n"
-		"1. User LED on/off\r\n"
-		"2. BMS Serial Number\r\n";
-uint8_t ledMenu[100]=
-		"Enter an option\r\n"
-		"	A. On\r\n"
-		"	B. Off\r\n"
-		"	C. Exit to main menu";
-uint8_t bmsMenu[100]=
-		"	 M. Enter the BMS serial number"
-		"	 E. Exit to main menu";
 
-uint8_t RxDataBms[10];
-uint8_t receivedBMS[10];
-uint8_t RxDataM;
-uint8_t RxDataL;
-uint8_t RxDataB;
 
 uint8_t rx_buffer[100];
 uint8_t tx_buffer[100];
